@@ -6,7 +6,23 @@ A project by [creativitas](https://www.fiverr.com/creativitas/design-your-modern
 
 [Run Project Demo](https://docs11ty.pages.dev/)
 
+---
+
+### Buy me a coffee ☕️ ❤️  ✌🏻 
+
+[Paypall](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JVZVXBC4N9DAN) [Gumroad](https://creativitaz.gumroad.com/l/coffee) [Github Sponsor](https://github.com/sponsors/mesinkasir)
+
+---
+
+### Lighthouse Test Drive
+
+![DOcs11ty](score.png)
+
+Result
+
 ![docs 11ty](doc.png)
+
+Project Shoot
 
 ---
 
@@ -18,12 +34,6 @@ A project by [creativitas](https://www.fiverr.com/creativitas/design-your-modern
 + Blog Page
 + About Page
 + Support Page
-
----
-
-### Buy me a coffee ☕️ ❤️  ✌🏻 
-
-[Paypall](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JVZVXBC4N9DAN) [Gumroad](https://creativitaz.gumroad.com/l/coffee) [Github Sponsor](https://github.com/sponsors/mesinkasir)
 
 ---
 
@@ -48,3 +58,5 @@ Blog post
 [Paypall](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JVZVXBC4N9DAN) [Gumroad](https://creativitaz.gumroad.com/l/coffee) [Github Sponsor](https://github.com/sponsors/mesinkasir)
 
 ---
+
+By [creativitas](https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll)
