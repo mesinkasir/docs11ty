@@ -1,7 +1,7 @@
 export default {
 	title: "Docs11ty",
 	description: "Documentation website themes JAMSTACK 11ty eleventy",
-	url: "https://example.com/",
+	url: "https:/docs11ty.pages.dev",
 	favicon: "https://creativitas.github.io//assets/img/creativitaswebdev.webp",
 	image: "/img/jamstackseo.jpg",
 	language: "en",
