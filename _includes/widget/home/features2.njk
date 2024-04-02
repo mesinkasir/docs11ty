@@ -1,0 +1,10 @@
+<div class="row p-3">
+{%- for u in features1 %}
+<div class="col-md-4 p-3">
+<div class="bg-light p-3 p-md-5 rounded shadow-sm">
+<h3><strong><a href="{{page.url}}">{{u.title}}</a></strong></h3>
+<p>{{u.description}}</p>
+</div>
+</div>
+{%- endfor %}
+</div>

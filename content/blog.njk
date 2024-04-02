@@ -1,0 +1,11 @@
+---
+title: Blog Post
+description: Update blog post article
+layout: layouts/default.njk
+---
+<div class="mb-5">
+<h1>{{title}}</h1>
+<h2 class="lead">{{description}}</h2>
+</div>
+{% set postslist = collections.posts %}
+{% include "postslist.njk" %}

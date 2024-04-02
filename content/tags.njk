@@ -1,0 +1,13 @@
+---
+layout: layouts/default.njk
+title: Hastag
+description: Tag Collections
+---
+<h1>Tags</h1>
+
+<ul>
+{% for tag in collections.all | getAllTags | filterTagList %}
+	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+{% endfor %}
+</ul>

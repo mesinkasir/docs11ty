@@ -1,0 +1,45 @@
+{
+	"name": "docs11ty",
+	"version": "2.1.2",
+	"description": "Documentation themes for eleventy 11ty by creativitas.dev.",
+	"type": "module",
+	"scripts": {
+		"build": "npx @11ty/eleventy",
+		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
+		"start": "npx @11ty/eleventy --serve --quiet",
+		"debug": "DEBUG=Eleventy* npx @11ty/eleventy",
+		"debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
+		"benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/mesinkasir/docs11ty.git"
+	},
+	"author": {
+		"name": "Creativitas",
+		"email": "creativebydre@gmail.com",
+		"url": "https://creativitas.dev/"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">=18"
+	},
+	"funding": {
+		"type": "github",
+		"url": "https://github.com/mesinkasir"
+	},
+	"homepage": "https://creativitas.dev",
+	"devDependencies": {
+		"@11ty/eleventy": "3.0.0-alpha.5",
+		"@11ty/eleventy-img": "^4.0.2",
+		"@11ty/eleventy-navigation": "^0.3.5",
+		"@11ty/eleventy-plugin-bundle": "^1.0.5",
+		"@11ty/eleventy-plugin-rss": "^1.2.0",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+		"luxon": "^3.4.4",
+		"markdown-it-anchor": "^8.6.7"
+	},
+	"dependencies": {
+		"eleventy-plugin-toc": "^1.1.5"
+	}
+}

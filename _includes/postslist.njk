@@ -1,0 +1,9 @@
+<div class="row">
+{% for post in postslist | reverse %}
+<div class="col-md-6 p-3">
+<h3><strong><a href="{{ post.url }}" class="postlist-link">{{ post.data.title }}</a></strong></h3>
+<p><small><time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time></small></p>
+<p>{{post.data.description}}</p>
+</div>
+{% endfor %}
+</div>

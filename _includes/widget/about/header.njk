@@ -1,0 +1,6 @@
+<div class="bg-light rounded shadow-sm p-3 p-md-5">
+<h1>{{metadata.title}}</h1>
+<h2>{{metadata.description}}</h2>
+<p><code class="bg-secondary p-1 text-white rounded">{{clone}}</code></p>
+<p>{%- for b in btn %}<a href="{{b.link}}" class="btn btn-outline-secondary">{{b.name}}</a>{% endfor %}
+</div>

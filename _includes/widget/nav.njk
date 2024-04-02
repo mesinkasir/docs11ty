@@ -1,0 +1,35 @@
+<nav class="navbar bg-light border-bottom shadow-sm p-3">
+<div class="container-fluid">
+<button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span> Menu
+</button>
+<a class="navbar-brand" href="/"><strong>{{metadata.title}}</strong></a>
+<div class="offcanvas offcanvas-start bg-light" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+<div class="offcanvas-header border-bottom bg-light">
+<h5 class="offcanvas-title" id="offcanvasNavbarLabel">{{metadata.title}}</h5>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<nav class="nav border-bottom justify-content-center bg-white">
+{%- for navi in metadata.nav %}
+<a class="nav-link" href="{{navi.link}}">{{navi.name}}</a>
+{%- endfor %}
+</nav>
+<div class="offcanvas-body">
+<ul class="navbar-nav p-3">
+{%- for entry in collections.all | eleventyNavigation %}
+<li class="nav-item">
+<a class="nav-link"href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-journal-bookmark-fill me-3" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M6 1h6v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8z"/>
+<path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+<path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+</svg>
+{{ entry.title }}</a>
+</li>
+{%- endfor %}
+</ul>
+</div>
+{% include "widget/creative.njk" %}
+</div>
+</div>
+</nav>

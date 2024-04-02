@@ -1,0 +1,7 @@
+{% if content | toc |safe %}
+<aside class="col-md-3 offset-md-1 p-3 mt-3">
+<div class="shadow-sm bg-light p-3 rounded">
+{{ content | toc | safe }}
+</div>
+</aside>
+{% endif %}

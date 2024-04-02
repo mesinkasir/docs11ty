@@ -1,0 +1,30 @@
+<!-- Start SEO injection by creativitas https://fiverr.com/creativitas -->
+<title>{{ title or metadata.title }}</title>
+<meta name="description" content="{{ description or metadata.description }}">
+<meta property="og:title" content="{{ title or metadata.title }}" />
+<meta property="og:locale" content="{{metadata.locale}}" />
+<meta name="description" content="{{ description or metadata.description }}" />
+<meta property="og:description" content="{{ description or metadata.description }}" />
+<link rel="canonical" href="{{metadata.url}}{{page.url}}" />
+<meta property="og:url" content="{{metadata.url}}{{page.url}}" />
+<meta property="og:site_name" content="{{ title or metadata.title }}" />
+<meta property="og:image" content="{{ metadata.image }}" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="{{ metadata.image }}" />
+<meta property="twitter:title" content="{{ title or metadata.title }}" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"{{ description or metadata.description }}","headline":"{{title or metadata.title}}","image":"{{metadata.url}}{{metadata.image}}","name":"{{title or metadata.title}}","url":"{{metadata.url}}"}</script>
+<meta name="twitter:card" content="summary" />
+<meta content='{{ metadata.image }}' property='twitter:image'/>
+<meta content='{{ metadata.image }}' name='twitter:image'/>
+<meta content='{{metadata.social.facebook}}' property='facebook:author'/>
+<meta content='{{description or metadata.description}}' property='twitter:description'/>
+<meta content='{{metadata.social.twitter}}' property='twitter:author'/>
+<meta content='{{metadata.social.tweet}}' name='twitter:site'/>
+<meta content="https://www.fiverr.com/creativitas" name="developer" />
+<link rel="alternate" href="feed/feed.njk" type="application/atom+xml" title="{{ metadata.title }}">
+<link rel="alternate" href="feed/json.njk" type="application/json" title="{{ metadata.title }}">
+<meta name="generator" content="{{ eleventy.generator }}">
+<link rel="icon" type="image/x-icon" href="{{metadata.favicon}}" />
+<meta content="index, follow" name="robots" />
+<!-- End SEO injection by creativitas https://fiverr.com/creativitas -->
