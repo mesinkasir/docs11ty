@@ -4,7 +4,9 @@ Built documentation website project with Eleventy 11ty
 
 A project by [creativitas](https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll)
 
-[Run Project Demo](https://docs11ty.pages.dev/)
+Run Project Demo: [https://docs11ty.pages.dev/](https://docs11ty.pages.dev/)
+
+Run Project Work with Embed Youtube video Demo: [https://www.hockeycomputindo.com/dokumentasi/mesinkasir](https://www.hockeycomputindo.com/dokumentasi/mesinkasir) 
 
 ---
 
