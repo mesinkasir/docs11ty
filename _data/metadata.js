@@ -7,8 +7,8 @@ export default {
 	language: "en",
 	locale: "en_EN",
 	social: {
-		facebook: "https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll",
-		twitter: "https://fiverr.com/creativitas",
+		facebook: "https://www.hockeycomputindo.com/en/jamstack/",
+		twitter: "https://www.hockeycomputindo.com/en/jamstack/",
 		tweet: "https://creativitas.dev/"
 	},
 	author: {
